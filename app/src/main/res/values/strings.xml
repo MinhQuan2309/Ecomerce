@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Ecomerce</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="product_image_desc">Ảnh sản phẩm</string>
+    <string name="error_email_empty">Vui lòng nhập email</string>
+    <string name="error_email_invalid">Email không hợp lệ</string>
+    <string name="error_password_empty">Vui lòng nhập mật khẩu</string>
+    <string name="error_password_short">Mật khẩu phải có ít nhất 6 ký tự</string>
+
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_subtitle">Chào mừng bạn quay trở lại!</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="login_forgot_password">Quên mật khẩu?</string>
+    <string name="login_remember_me">Ghi nhớ đăng nhập</string>
+    <string name="login_no_account">Chưa có tài khoản?</string>
+    <string name="login_go_register">Đăng ký ngay</string>
+    <string name="login_success">Đăng nhập thành công</string>
+
+    <string name="register_title">Tạo tài khoản</string>
+    <string name="register_subtitle">Điền thông tin để bắt đầu</string>
+    <string name="register_button">Đăng ký</string>
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="register_accept_terms">Tôi đồng ý với điều khoản sử dụng</string>
+    <string name="register_have_account">Đã có tài khoản?</string>
+    <string name="register_go_login">Đăng nhập</string>
+    <string name="register_success">Đăng ký thành công</string>
+    <string name="error_name_empty">Vui lòng nhập họ tên</string>
+    <string name="error_phone_empty">Vui lòng nhập số điện thoại</string>
+    <string name="error_phone_invalid">Số điện thoại phải có 10 chữ số</string>
+    <string name="error_confirm_empty">Vui lòng nhập lại mật khẩu</string>
+    <string name="error_confirm_mismatch">Mật khẩu nhập lại không khớp</string>
+    <string name="error_terms">Bạn cần đồng ý với điều khoản sử dụng</string>
+
+    <string name="home_logout">Đăng xuất</string>
+    <string name="nav_list">Danh sách</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_info">Thông tin</string>
+
+    <string name="home_search_hint">Tìm sản phẩm</string>
+    <string name="home_product_count">%1$d sản phẩm</string>
+    <string name="home_empty">Không tìm thấy sản phẩm nào</string>
+    <string name="home_empty_favorite">Chưa có sản phẩm yêu thích nào</string>
+
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_favorite">Yêu thích</string>
+    <string name="filter_shirt">Áo</string>
+    <string name="filter_pants">Quần</string>
+    <string name="filter_shoes">Giày</string>
+    <string name="filter_accessory">Phụ kiện</string>
+    <string name="filter_other">Đồ dùng</string>
+
+    <string name="info_title">Tài khoản của bạn</string>
+    <string name="profile_section_account">THÔNG TIN TÀI KHOẢN</string>
+    <string name="profile_username">Tên đăng nhập</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_status_active">● Đang đăng nhập</string>
+
+    <string name="detail_title">Chi tiết sản phẩm</string>
+    <string name="detail_label_price">Giá</string>
+    <string name="detail_label_description">Mô tả sản phẩm</string>
+    <string name="detail_label_buyer">Người mua</string>
+    <string name="detail_add_to_cart">Thêm vào giỏ</string>
+    <string name="detail_go_cart">Xem giỏ</string>
+    <string name="detail_added_to_cart">Đã thêm %1$s vào giỏ</string>
+    <string name="detail_favorite">Yêu thích</string>
+    <string name="detail_favorite_added">Đã thêm %1$s vào yêu thích</string>
+    <string name="detail_favorite_removed">Đã bỏ %1$s khỏi yêu thích</string>
+
+    <string name="cart_title">Giỏ hàng</string>
+    <string name="cart_empty">Giỏ hàng đang trống</string>
+    <string name="cart_total">Tổng cộng</string>
+    <string name="cart_checkout">Thanh toán</string>
+    <string name="cart_plus">+</string>
+    <string name="cart_minus">−</string>
+    <string name="cart_backtoBuy">Tiếp tục mua</string>
+
+    <string name="checkout_title">Thanh toán</string>
+    <string name="checkout_section_buyer">NGƯỜI MUA</string>
+    <string name="checkout_section_order">ĐƠN HÀNG</string>
+    <string name="checkout_total">Tổng cộng</string>
+    <string name="checkout_confirm">Xác nhận thanh toán</string>
+    <string name="checkout_done_title">Thanh toán thành công</string>
+    <string name="checkout_done_message">Đơn hàng đã được lưu.\nTổng tiền: %1$s</string>
+    <string name="checkout_done_ok">Về trang chủ</string>
+
+    <string name="nav_firebase_short">Firebase</string>
+    <string name="nav_search">Tìm kiếm</string>
+    <string name="firebase_title">Sản phẩm từ Firebase</string>
+    <string name="firebase_dialog_close">Đóng</string>
+    <string name="app_brand">Khám phá</string>
+    <string name="profile_section_manage">QUẢN LÝ TÀI KHOẢN</string>
+    <string name="profile_order_history">Lịch sử đơn hàng</string>
+    <string name="profile_order_history_desc">Xem lại các đơn đã đặt</string>
+    <string name="profile_address">Địa chỉ giao hàng</string>
+    <string name="profile_address_desc">Nơi nhận hàng của bạn</string>
+    <string name="profile_edit">Thay đổi thông tin</string>
+    <string name="profile_edit_desc">Cập nhật tên và email</string>
+    <string name="feature_coming_soon">Tính năng đang được phát triển</string>
+    <string name="order_history_title">Lịch sử đơn hàng</string>
+    <string name="order_history_empty">Chưa có đơn hàng nào</string>
+
+    <string name="address_title">Địa chỉ giao hàng</string>
+    <string name="address_receiver">Họ tên người nhận</string>
+    <string name="address_phone">Số điện thoại</string>
+    <string name="address_city">Tỉnh / Thành phố</string>
+    <string name="address_detail">Địa chỉ cụ thể</string>
+    <string name="address_save">Lưu địa chỉ</string>
+
+    <string name="edit_profile_title">Thay đổi thông tin</string>
+    <string name="edit_profile_name">Tên hiển thị</string>
+    <string name="edit_profile_email">Email</string>
+    <string name="edit_profile_save">Lưu thay đổi</string>
+    <string name="home_sort_title">Sắp xếp sản phẩm</string>
+    <string name="home_sort_default">Mặc định</string>
+    <string name="home_sort_price_asc">Giá thấp đến cao</string>
+    <string name="home_sort_price_desc">Giá cao đến thấp</string>
+    <string name="home_sort_name">Tên A → Z</string>
+
+    <string name="detail_size">Chọn size</string>
+    <string name="detail_size_selected">Đã chọn size %1$s</string>
+
+    <string name="cart_subtotal">Tạm tính</string>
+    <string name="cart_shipping">Phí vận chuyển</string>
+    <string name="cart_start_shopping">Bắt đầu mua sắm</string>
+    <string name="search_title">Tìm kiếm</string>
+    <string name="search_hint">Tìm sản phẩm...</string>
+    <string name="search_recent">Tìm kiếm gần đây</string>
+    <string name="search_clear_all">Xóa tất cả</string>
+    <string name="search_no_result">Không tìm thấy kết quả!</string>
+    <string name="search_no_result_hint">Thử từ khóa khác hoặc chung hơn.</string>
+    <string name="search_remove_item">Xóa khỏi lịch sử</string>
+    <string name="review_title">Đánh giá</string>
+    <string name="review_count">%1$d đánh giá</string>
+    <string name="review_none">Chưa có đánh giá</string>
+    <string name="review_none_hint">Hãy là người đầu tiên đánh giá sản phẩm này.</string>
+    <string name="review_write">Viết đánh giá</string>
+    <string name="review_comment_hint">Cảm nhận của bạn về sản phẩm</string>
+    <string name="review_send">Gửi đánh giá</string>
+    <string name="review_cancel">Hủy</string>
+    <string name="review_need_rating">Vui lòng chọn số sao</string>
+    <string name="review_need_comment">Vui lòng nhập nhận xét</string>
+    <string name="review_thanks">Cảm ơn bạn đã đánh giá</string>
+    <string name="review_time_today">Hôm nay</string>
+    <string name="review_time_days">%1$d ngày trước</string>
+    <string name="detail_see_reviews">Xem tất cả</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_category">Danh mục</string>
+    <string name="home_title">Trang chủ</string>
+
+    <string name="banner_action">Mua ngay</string>
+    <string name="banner1_label">BỘ SƯU TẬP MỚI</string>
+    <string name="banner1_title">Thu Đông 2026
+đã lên kệ</string>
+    <string name="banner2_label">ƯU ĐÃI TRONG TUẦN</string>
+    <string name="banner2_title">Giảm đến 30%
+giày thể thao</string>
+    <string name="banner3_label">MIỄN PHÍ VẬN CHUYỂN</string>
+    <string name="banner3_title">Cho đơn hàng
+từ 500.000đ</string>
+
+    <string name="category_title">Danh mục</string>
+    <string name="category_see_all">Xem tất cả</string>
+    <string name="category_price_section">Phân khúc giá</string>
+    <string name="category_product_section">Sản phẩm</string>
+    <string name="price_all">Tất cả</string>
+    <string name="price_under_200">Dưới 200k</string>
+    <string name="price_200_500">200k - 500k</string>
+    <string name="price_over_500">Trên 500k</string>
+    <string name="category_empty">Chưa có sản phẩm phù hợp</string>
+
+    <string name="profile_firebase">Dữ liệu Firebase</string>
+    <string name="profile_firebase_desc">Sản phẩm lưu trên Firestore</string>
+</resources>

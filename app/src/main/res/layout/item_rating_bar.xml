@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/tvStarLabel"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        tools:text="5" />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="2dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_star"
+        app:tint="@color/rating" />
+
+    <ProgressBar
+        android:id="@+id/barStar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:max="100"
+        android:progressTint="@color/brand_primary"
+        tools:progress="70" />
+
+    <TextView
+        android:id="@+id/tvStarCount"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        tools:text="12" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.NguyenMinhQuanApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_primary</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.NguyenMinhQuanApp" parent="Base.Theme.NguyenMinhQuanApp" />
+
+    <style name="BottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+
+    <style name="TextAppearance.App.PageTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.App.ScreenTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>
