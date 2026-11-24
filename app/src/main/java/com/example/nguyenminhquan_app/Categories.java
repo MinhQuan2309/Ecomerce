@@ -42,13 +42,4 @@ public final class Categories {
 
     private Categories() {
     }
-
-    public static int indexOf(String tag) {
-        for (int i = 0; i < TAGS.length; i++) {
-            if (TAGS[i] != null && TAGS[i].equals(tag)) {
-                return i;
-            }
-        }
-        return 0;
-    }
 }

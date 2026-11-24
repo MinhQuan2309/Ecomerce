@@ -128,10 +128,6 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        if (intent.hasExtra(Constants.EXTRA_CATEGORY)) {
-            selectCategory(Categories.indexOf(intent.getStringExtra(Constants.EXTRA_CATEGORY)));
-        }
-
         showList();
     }
 

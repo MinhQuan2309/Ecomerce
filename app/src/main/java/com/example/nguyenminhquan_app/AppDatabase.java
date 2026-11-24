@@ -725,25 +725,31 @@ public class AppDatabase extends SQLiteOpenHelper {
 
         if (categoryId != null && !categoryId.isEmpty() && !"ALL".equalsIgnoreCase(categoryId)) {
             if ("AO_THUN".equalsIgnoreCase(categoryId)) {
-                query.append("AND (name LIKE '%thun%' OR name LIKE '%polo%' OR name LIKE '%ba lỗ%' OR category = 'Áo') ");
+                query.append("AND category = ? AND (name LIKE '%thun%' OR name LIKE '%polo%' OR name LIKE '%ba lỗ%') ");
+                args.add(Constants.CATEGORY_SHIRT);
             } else if ("AO_SO_MI".equalsIgnoreCase(categoryId)) {
-                query.append("AND (name LIKE '%sơ mi%' OR category = 'Áo') ");
+                query.append("AND category = ? AND name LIKE '%sơ mi%' ");
+                args.add(Constants.CATEGORY_SHIRT);
             } else if ("AO_KHOAC".equalsIgnoreCase(categoryId)) {
-                query.append("AND (name LIKE '%khoác%' OR name LIKE '%hoodie%' OR name LIKE '%bomber%' OR category = 'Áo') ");
+                query.append("AND category = ? AND (name LIKE '%khoác%' OR name LIKE '%hoodie%' OR name LIKE '%bomber%') ");
+                args.add(Constants.CATEGORY_SHIRT);
             } else if ("QUAN_JEANS".equalsIgnoreCase(categoryId)) {
-                query.append("AND (name LIKE '%jean%' OR category = 'Quần') ");
+                query.append("AND category = ? AND name LIKE '%jean%' ");
+                args.add(Constants.CATEGORY_PANTS);
             } else if ("QUAN_DAI".equalsIgnoreCase(categoryId)) {
-                query.append("AND (name LIKE '%tây%' OR name LIKE '%kaki%' OR name LIKE '%jogger%' OR name LIKE '%quần%' OR category = 'Quần') ");
+                query.append("AND category = ? AND (name LIKE '%tây%' OR name LIKE '%jogger%' OR name LIKE '%chinos%' OR name LIKE '%kaki%') AND name NOT LIKE '%short%' ");
+                args.add(Constants.CATEGORY_PANTS);
             } else if ("QUAN_SHORT".equalsIgnoreCase(categoryId)) {
-                query.append("AND (name LIKE '%short%' OR category = 'Quần') ");
+                query.append("AND category = ? AND name LIKE '%short%' ");
+                args.add(Constants.CATEGORY_PANTS);
             } else if ("PHU_KIEN".equalsIgnoreCase(categoryId)) {
-                query.append("AND (category = ? OR name LIKE '%mũ%' OR name LIKE '%balo%' OR name LIKE '%kính%' OR name LIKE '%đồng hồ%' OR name LIKE '%tai nghe%') ");
+                query.append("AND category = ? ");
                 args.add(Constants.CATEGORY_ACCESSORY);
             } else if ("GIAY_DEP".equalsIgnoreCase(categoryId)) {
-                query.append("AND (category = ? OR name LIKE '%giày%' OR name LIKE '%sneaker%') ");
+                query.append("AND category = ? ");
                 args.add(Constants.CATEGORY_SHOES);
             } else if ("DO_DUNG".equalsIgnoreCase(categoryId)) {
-                query.append("AND (category = ? OR name LIKE '%bình%' OR name LIKE '%sổ%') ");
+                query.append("AND category = ? ");
                 args.add(Constants.CATEGORY_OTHER);
             } else {
                 query.append("AND category = ? ");
