@@ -174,4 +174,36 @@ từ 500.000đ</string>
 
     <string name="profile_firebase">Dữ liệu Firebase</string>
     <string name="profile_firebase_desc">Sản phẩm lưu trên Firestore</string>
+
+    <string name="detail_specs_title">Thông số chi tiết</string>
+    <string name="detail_sku_label">Mã sản phẩm</string>
+    <string name="detail_category_label">Danh mục</string>
+    <string name="detail_material_label">Chất liệu</string>
+    <string name="detail_origin_label">Xuất xứ</string>
+    <string name="detail_warranty_label">Bảo hành</string>
+    <string name="detail_stock_label">Tình trạng</string>
+    <string name="detail_in_stock">Còn hàng (Sẵn sàng giao)</string>
+    <string name="detail_origin_value">Việt Nam</string>
+    <string name="detail_warranty_value">12 tháng chính hãng</string>
+
+    <string name="detail_commitments_title">Chính sách &amp; Dịch vụ</string>
+    <string name="detail_commit_auth_title">100% Chính hãng</string>
+    <string name="detail_commit_auth_desc">Cam kết sản phẩm chất lượng cao</string>
+    <string name="detail_commit_return_title">Đổi trả 7 ngày</string>
+    <string name="detail_commit_return_desc">Miễn phí nếu phát sinh lỗi nhà sản xuất</string>
+    <string name="detail_commit_ship_title">Freeship từ 200k</string>
+    <string name="detail_commit_ship_desc">Miễn phí vận chuyển toàn quốc</string>
+    <string name="detail_commit_check_title">Đồng kiểm hàng</string>
+    <string name="detail_commit_check_desc">Kiểm tra thoải mái trước khi thanh toán</string>
+
+    <string name="detail_reviews_header">Đánh giá &amp; Nhận xét</string>
+    <string name="detail_write_review_btn">Viết đánh giá</string>
+    <string name="detail_see_all_reviews">Xem toàn bộ đánh giá</string>
+    <string name="detail_reviews_empty_title">Chưa có đánh giá nào</string>
+    <string name="detail_reviews_empty_hint">Hãy là người đầu tiên trải nghiệm và để lại đánh giá cho sản phẩm này nhé!</string>
+
+    <string name="detail_similar_title">Sản phẩm tương tự</string>
+    <string name="detail_similar_subtitle">Gợi ý các mẫu cùng phong cách</string>
+    <string name="detail_accessories_title">Gợi ý phụ kiện &amp; Mua kèm</string>
+    <string name="detail_accessories_subtitle">Phối đồ phong cách &amp; hoàn thiện outfit</string>
 </resources>

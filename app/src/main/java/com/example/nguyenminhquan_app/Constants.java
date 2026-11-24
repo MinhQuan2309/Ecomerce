@@ -6,6 +6,10 @@ public final class Constants {
     public static final String EXTRA_SHOW_PROFILE = "extra_show_profile";
     public static final String EXTRA_PRODUCT_ID = "extra_product_id";
     public static final String EXTRA_CATEGORY = "extra_category";
+    public static final String EXTRA_TITLE = "extra_title";
+    public static final String EXTRA_KEYWORD = "extra_keyword";
+    public static final String EXTRA_MIN_PRICE = "extra_min_price";
+    public static final String EXTRA_MAX_PRICE = "extra_max_price";
 
     public static final String CATEGORY_SHIRT = "Áo";
     public static final String CATEGORY_PANTS = "Quần";
