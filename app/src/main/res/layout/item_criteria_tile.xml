@@ -24,16 +24,10 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp">
 
-        <View
-            android:layout_width="6dp"
-            android:layout_height="6dp"
-            android:background="@drawable/bg_dot_active" />
-
         <TextView
             android:id="@+id/tvCriteriaName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
             android:layout_weight="1"
             android:ellipsize="end"
             android:maxLines="1"
